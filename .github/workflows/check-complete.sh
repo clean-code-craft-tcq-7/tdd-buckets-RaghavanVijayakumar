@@ -2,6 +2,6 @@
 set -e
 
 if grep -q input *.md; then
-  echo "Replace all the input with your input"
+  echo "Replaced"
   exit 1
 fi
